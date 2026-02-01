@@ -1,6 +1,7 @@
 import { motion } from 'motion/react';
 import { Heart } from 'lucide-react';
 import { useState, useRef } from 'react';
+import React from 'react';
 
 interface QuestionScreenProps {
   onAccept: () => void;
@@ -147,7 +148,7 @@ export function QuestionScreen({ onAccept }: QuestionScreenProps) {
               ease: 'easeInOut',
             }}
           >
-            Will you be my Valentine?
+            Priya, will you be my Valentine?
           </motion.span>
         </motion.h1>
 

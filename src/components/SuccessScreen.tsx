@@ -205,7 +205,7 @@ export function SuccessScreen() {
                 ease: 'easeInOut',
               }}
             >
-              You just made my heart the happiest 💖
+              Priya, you just made my heart the happiest 💖
             </motion.span>
           </motion.h1>
 
@@ -215,7 +215,7 @@ export function SuccessScreen() {
             animate={{ opacity: 1 }}
             transition={{ delay: 1.3, duration: 0.5 }}
           >
-            Our date is officially confirmed — I can't wait to see you.
+            Our date is officially confirmed — I can't wait to see you, Priya.
           </motion.p>
 
           {/* Decorative hearts */}
